@@ -13,11 +13,12 @@ it is very simple and easy to use:
   // the last is RCLK pin ,LATCH the data to the 74HC595 pin
   //
   
-  Tube595 Tube(0,2,1);```
+  Tube595 Tube(0,2,1);
+ ```
 
   
-  in the loop function:
+in the loop function:
   
-  Tube.displayFloat(1234.5678,1);
+  ```Tube.displayFloat(1234.5678,1);```
    
 it will works!
