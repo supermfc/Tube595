@@ -5,7 +5,8 @@ A arduino class for the 8* 7 digitals tube display use two 74HC595, one choose w
 
 it is very simple and easy to use:
 
-  ```#include "Tube595.h"
+  ```C++
+  #include "Tube595.h"
   
   // the first param is DIO pin,data pin.
   // second is SCLK pin, clock pin.
