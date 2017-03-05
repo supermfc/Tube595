@@ -9,6 +9,7 @@ it is very simple and easy to use:
   // second is SCLK pin, clock pin.
   // the last is RCLK pin ,LATCH the data to the 74HC595 pin
   //
+  
   Tube595 Tube(0,2,1);
 
   
