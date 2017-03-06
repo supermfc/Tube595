@@ -44,6 +44,7 @@ class Tube595
 	void displayInt(int num);
 	void displayFloat(float number,int prec);
 	
+	void closeDisplay();
 	void update();
 	
   private:

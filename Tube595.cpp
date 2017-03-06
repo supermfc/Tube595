@@ -139,6 +139,13 @@ void Tube595::setPoint(int place)
 	LedData[place] &= 0x7F;
 }
 
+void Tube595::closeDisplay()
+{
+	for(int i = 0; i < 8;i ++)
+		LedData[i] = 0xFF;
+	
+	update();
+}
 void Tube595::update()
 {
 	for(int i = 0 ; i < 8; i++)
