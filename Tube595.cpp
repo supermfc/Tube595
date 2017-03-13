@@ -18,7 +18,6 @@
  *
  *  See Github project https://github.com/supermfc/Tube595 for latest
  */
- */
 #ifndef TUBE595_cpp
 #define TUBE595_cpp
 
